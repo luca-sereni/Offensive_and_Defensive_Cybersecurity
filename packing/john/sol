@@ -10,7 +10,3 @@ Quinto check: usa quinto.1
 quitno.1:
 sesto check:
 settimo check: flag deve essere lunga 33 caratteri
-
-
-
-flag{packer}
