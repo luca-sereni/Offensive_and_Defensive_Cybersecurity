@@ -1,0 +1,7 @@
+SOLUTION
+By using GDB, I saw the area where the program stores code received from the server. The execution of "data" receives the string from the server that will be used to do the xor after. "Prepareinput" does the xor among our string we put in input and the one received with "data". Finally, "check" checks if the xored string obtained before is equal to a string that is store in register r10. By xoring the string in r10 with the "data" string, we obtained the hexadecimal version of the string.
+
+data received: 0x4827c3baaa35c7cc
+
+
+flag{congratulationz_!_you_got_the_flag_from_dyn!_was_it_hard_?}

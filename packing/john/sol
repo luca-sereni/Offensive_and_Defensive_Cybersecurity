@@ -1,0 +1,16 @@
+Procedura:
+Ad ogni funzione che viene chiamata dopo la funzione di unpacking, fai un dump della funzione. Poi usa lo script per andare a rimpiazzare la funzione che è stata unpackata. Controlla con ghidra come funziona ed eventualmente usa angr per trovare la soluzione affinché la funzioni ritorni 1.
+
+Primo check: controlla se la stringa inizia per flag{ usando la funzione strstr
+Secondo check: controlla che la stringa finisca con }
+Terzo check: controlla che ci siano solo caratteri ASCII
+Quarto check: prende i primi 6 caratteri e per ognuno applica la funzione quarto.1
+Quarto.1 check: fa 4 volte la potenza dell'indice passato e alla fine fa una somma (vedere ghidra)
+Quinto check: usa quinto.1
+quitno.1:
+sesto check:
+settimo check: flag deve essere lunga 33 caratteri
+
+
+
+flag{packer}

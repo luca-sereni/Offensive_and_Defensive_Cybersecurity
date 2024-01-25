@@ -1,0 +1,4 @@
+solution: use gdb to execute the program and set with set $rax= 0xABCD the value of the 4 byte of license we want the serial code and repeat it for 5 times.
+
+
+flag{a0db6e1e-2e5b00fb-643fe729-30d2348f-48c74576}

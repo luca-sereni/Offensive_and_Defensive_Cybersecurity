@@ -1,0 +1,24 @@
+SOLUTION:
+After proceeded with the decode, we received 4 strings:1,2,3,4. Basically it executes the xor among a byte of 1 with a byte of our flag. If the result of the xor is equal to the byte in 3, it keeps doing the same. It does the same thing with string 2 and checks the result wrt string 4. Then it changes the payload and repeat the decode function. When it finishes we have 4 new strings and it does the same thing. To have the solution, we have to do the xor among one byte of a string and the byte we should have after xoring our flag with the string.
+
+1-0x988a215bec73afb4 
+
+2-0xef48e5cb65f245cf 
+
+3-0xedba58208b12c3d2 
+
+4-0x9c1791b3569c1abd
+
+
+1.1-0xa0e9997a1f26e55d
+
+2.1-0xf997be04d7255ecb
+
+3.1-0x8e9aa8252c50896d
+
+4.1-0x84e18d69e05c70e5
+
+
+
+
+flag{y0ur_n3xt_s0lv3_1s...y7m3v}

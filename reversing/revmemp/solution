@@ -1,0 +1,8 @@
+Solution:
+(after have opened ghidra to see the structure of the program)
+
+1. catch the syscall PTRACE in order to set the rax register to 0 (so ptrace doesn't know that there's GDB)
+
+2.put a breakpoint in strncmp and then click continue in order to arrive to this breakpoint
+
+3.exit from strncmp and we'll see in the rdi register the value of the flag

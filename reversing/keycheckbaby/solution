@@ -1,0 +1,7 @@
+Solution:
+
+- for the first cycle, we need to find a string of 13 characters that xored with the string "babuzzbabuzzb" (doing byte per byte) produce the same character (and so the same string) of magic0 that we can retrieve using GDB
+
+- for the second cycle the procedure is more or less the same: first using gdb we find the second string magic1, then we need to perform some operations using decimal. Given an initial value to the variable local_85, then we need to find the corresponding value of a character that if added to the value of local_85, it results in the same value of a byte of magic1: if the value of magic1 to get is less than the value of local_85, then we have to consider the complement by 2 of the byte of magic1. 
+
+flag{y0u_d4_qu33n_0f_cr4ck1ngz}
